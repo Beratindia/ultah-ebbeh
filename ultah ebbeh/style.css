@@ -1,0 +1,153 @@
+@font-face {
+    font-family: Roboto-slab;
+    src: url(fonts/RobotoSlab-VariableFont_wght);
+    font-family: satisfy;
+    src: url(fonts/Satisfy-Regular);
+}
+
+body{
+    background-color:#070F2B;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 250px;
+    width: 250px;
+    border:2px white;
+    position: absolute;
+    margin:auto;
+    top: 0%;
+    bottom:0%;
+    left: 0%;
+    right: 0%;
+}
+.cake{
+    height: 150px;
+    width: 200px;
+    background-color: #BA704F;
+    position: absolute;
+}
+.c1{
+    bottom: 0;
+    left: 60px;
+}
+.icing{
+    background-color: #6C3428;
+    height: 65px;
+    width: 80.2%;
+    position: absolute;
+    top: 36px;
+
+}
+.candle{
+    background-color: #F9F9F9;
+    height: 40px;
+    width: 20px;
+    position: absolute;
+    z-index:-3;
+    bottom: 250px;
+    left: 90px;
+    
+}
+.candle1{
+    background-color: #F9F9F9;
+    height: 40px;
+    width: 20px;
+    position: absolute;
+    z-index:-3;
+    bottom: 250px;
+    left: 20px;
+}
+.candle2{
+    background-color: #F9F9F9;
+    height: 40px;
+    width: 20px;
+    position: absolute;
+    z-index:-3;
+    bottom: 250px;
+    left: 150px;
+}
+.flame {
+    background-color: #fbb200;
+    height: 22px;
+    width: 22px;
+    border-radius: 0 50% 50% 50%;
+    position: absolute;
+    top: -62px;
+    left: 89px;
+    transform: rotate(45deg);
+    box-shadow: 0 0 15px 2px rgb(251, 178,0,0.6);
+    animation: glow  infinite;
+    -webkit-animation: glow 2 infinite;
+
+
+}
+.flame1 {
+    background-color: #fbb200;
+    height: 22px;
+    width: 22px;
+    border-radius: 0 50% 50% 50%;
+    position: absolute;
+    top: -62px;
+    left: 19px;
+    transform: rotate(45deg);
+    box-shadow: 0 0 15px 2px rgb(251, 178,0,0.6);
+    animation: glow  infinite;
+    -webkit-animation: glow 2 infinite;
+}
+.flame2 {
+    background-color: #fbb200;
+    height: 22px;
+    width: 22px;
+    border-radius: 0 50% 50% 50%;
+    position: absolute;
+    top: -62px;
+    left: 149px;
+    transform: rotate(45deg);
+    box-shadow: 0 0 15px 2px rgb(251, 178,0,0.6);
+    animation: glow  infinite;
+    -webkit-animation: glow 2 infinite;
+}
+
+@keyframes glow{
+    50%{
+        box-shadow: 0 0 2px 0 rgb(251, 178,0,0.6);
+        top: -20.5px;
+
+    }
+}
+@-webkit-keyframes glow{
+    50%{
+        box-shadow: 0 0 2px 0 rgb(251, 178, 0,0.9);
+        top: -20.5px;
+    }
+}
+.container1{
+    height: 250px;
+    width: 250px;
+    border:2px white;
+    margin:auto;
+    top: 0%;
+    bottom:0%;
+    left: 0%;
+    right: 0%;
+    text-align: center;
+}
+.msg1{
+    color: #F9F9F9;
+    font-size: 50px;
+    position: fixed;
+    left: 20px;
+    right: 20px;
+    bottom: 1px;
+    top: 8%;
+}
+.msg2{
+    color: #F9F9F9;
+    font-size: 46px;
+    position: fixed;
+    bottom: 3%;
+    top: 550px;
+    left: 20px;
+    
+}
